@@ -1,0 +1,47 @@
+{
+    "app_name": "Confluence_generator",
+    "app_version":"1.0.0",
+    "app_url": "127.0.0.1",
+    "app_base": "/index",
+
+    "api":{
+        "_url": "/api",
+        "_version": "/1.0",
+        "_port":8089
+    },
+
+  "mongodb": {
+      "host": "127.0.0.1",
+      "port": "27017",
+      "db": "confluence",
+
+      "collections": {
+          "entry": "test_collection"
+      }
+  },
+  
+  "elastic": {
+          "host": "127.0.0.1",
+          "port": "9200",
+          "username": "",
+          "password": ""
+          },
+          
+ "rabbit": {
+          "host": "127.0.0.1",
+          "port": "5672",
+          "username": "guest",
+          "password": "guest",
+          "queues": {
+              "queue-one": "queue-name"
+          }
+      },
+"redis": {
+          "host": "127.0.0.1",
+          "port": "6379",
+          "username": "",
+          "password": "",
+          "database": ""
+      }
+
+}

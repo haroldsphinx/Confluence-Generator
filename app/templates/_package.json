@@ -1,0 +1,36 @@
+{
+  "name": "<%= _.slugify(appName) %>",
+  "version": "1.0.0",
+  "description": "<%= appDescription %>",
+  "main": "app.js",
+  "author": "<%= authorName %>",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/<%= authorGithub %>/<%= _.slugify(appName) %>.git"
+    },
+     "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+  "dependencies": {
+    "amqplib": "^0.4.1",
+    "config.json": "0.0.4",
+    "dateformat": "^1.0.12",
+    "md5": "^2.1.0",
+    "moment": "^2.14.1",
+    "moment-timezone": "^0.5.4",
+    "mongodb": "^2.1.18",
+    "mongoosastic": "^4.0.2",
+    "mongoose": "^4.4.17",
+    "node-cron": "^1.1.1",
+    "node-geocoder": "^3.10.0",
+    "object-array-converter": "^1.0.0",
+    "promise": "^7.1.1",
+    "promise-redis": "0.0.5",
+    "readlines": "^0.2.0",
+    "redis": "^2.5.3",
+    "restify": "^4.0.4",
+    "socket.io": "^1.4.8",
+    "xml2json": "^0.9.1"
+  }
+}
